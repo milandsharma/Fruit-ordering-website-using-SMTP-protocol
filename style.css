@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("images/4108220.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    opacity: 82%;
+    margin: 0;
+}
+.navbar:hover{
+    opacity: 150%;
+    font-weight: 600;
+
+}
+.c1{
+    display: flex;
+    height: 55%;
+    width: 85%;
+    margin: 15vh auto;
+    background-color: #fff;
+    opacity:98%; 
+    border-radius:15px;
+
+}
+.c11,.c12{
+    width: 50%;
+}
+.c12 img{
+    height:100%;
+    width: 100%;
+    opacity:95%;
+    border-radius:15px;
+}
+.title{
+    font-size:6rem;
+    width: 80%; 
+    margin: 25% auto;
+    font-weight:1000;
+    color: rgb(27, 230, 24);
+    animation-name:alter-color;
+    animation-duration:6s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+    animation-iteration-count:infinite;
+}
+@keyframes alter-color {
+    from{
+        font-size:2rem;
+    }
+    50%{
+      
+        font-size:2.8rem;
+    }
+    to{
+        font-size:3.2rem;
+    }
+}
+.card-div{
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+    margin: 15vh auto;
+    opacity:100%; 
+    flex-wrap: wrap;
+}
+.card{
+    height: 30vh;
+    border-radius: 1rem;
+    text-align: center;
+    color: rgb(38, 38, 38);
+    font-weight: normal;
+    margin-top: 3%;
+    background-color: rgb(236, 236, 236);
+    overflow: hidden;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgb(139, 137, 137);
+  }
+.card-img-top{
+    height: 100%;
+}
+.nav-item:hover{
+    font-weight:600
+}
+.registration{
+    background-color: #fff;
+    width:85%;
+    margin: 30px auto;
+    border-radius:3%;
+    padding: 4.5% 3.5%;
+}
+.registration:hover{
+    box-shadow: 10px 10px 10px 10px rgb(98, 97, 97);
+
+}
+footer{
+    height: 10%;
+    margin-bottom: 0;
+    margin-top:10vh ;
+    text-align: center;
+    padding: 15px 0;
+    background-color:#fff;
+}
+.container-fluid{
+    width: 20%;
+    margin: 2px auto;
+}
+.form-control{
+    margin-top:20px
+}
+
+
